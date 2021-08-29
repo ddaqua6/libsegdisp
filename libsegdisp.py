@@ -53,7 +53,7 @@ def play(char):
                         disp_c.on()
                 else:
                         miss("Fields B, C not configured.")
-        elif char == 2 or char == Z:
+        elif char == 2:
                 if disp_a != "null" and disp_b != "null" and disp_g != "null" and disp_e != "null" and disp_d != "null":
                         disp_a.on()
                         disp_b.on()
@@ -105,8 +105,8 @@ def play(char):
                         disp_c.on()
                 else:
                         miss("Fields A-C not configured.")
-       elif char == 8:
-                if disp_a != "null" and disp_b != "null" and disp_c != "null" and disp_d != "null" and disp_e != "null" and disp_f != "null" >
+	elif char == 8:
+                if disp_a != "null" and disp_b != "null" and disp_c != "null" and disp_d != "null" and disp_e != "null" and disp_f != "null" and disp_g != "null":
                         disp_a.on()
                         disp_b.on()
                         disp_c.on()
